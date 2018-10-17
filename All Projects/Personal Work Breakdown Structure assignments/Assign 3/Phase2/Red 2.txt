@@ -1,0 +1,188 @@
+N0_Bool Correlate(int size, float arrayOne[], float arrayTwo[], float *spearmanCoefficient, float *correlationFlag)
+{
+    N1if(size <= 0){													1
+        N2return 0;													2
+    }															
+   N3 int i, j = 0;					
+    N4float rank_A[size], rank_B[size], unsorted_array_one[size], unsorted_array_two[size], mean, variance;		3
+    N5for (i = 0 (4a); i < size (4b); i++ (4c))
+    {
+        N6unsorted_array_one[i] = arrayOne[i];										5
+        N7unsorted_array_two[i] = arrayTwo[i];										6
+    }
+    N8for (i = 0 (7a); i < size (7b); i++ (7c))
+    {
+        N9for (j = 0 (8a); j < size - i - 1 (8b); j++ (8c))
+        {
+            N10if (arrayOne[j] > arrayOne[j + 1])									9
+            {
+                N11float temp = 0.0f;											10
+                N12temp = arrayOne[j + 1];										11
+                N13arrayOne[j + 1] = arrayOne[j];									12
+                N14arrayOne[j] = temp;											13
+            }
+        }
+    }
+    N15for (i = 0 (14a); i < size (14b); i++ (14c))
+    {
+        N16for (j = 0 (15a); j < size - i - 1 (15b); j++ (15c))
+        {
+            N17if (arrayTwo[j] > arrayTwo[j + 1])									16
+            {
+                N18float temp = 0.0f;											17
+                N19temp = arrayTwo[j + 1];										18
+                N20arrayTwo[j + 1] = arrayTwo[j];									19
+                N21arrayTwo[j] = temp;											20
+            }
+        }
+    }
+    N22for (i = 0 (21a); i < size (21b); i++ (21c))
+    {
+        N23rank_A[i] = i + 1;												22
+    }
+    N24for (i = 0 (23a); i < size (23b); i++ (23c))
+    {
+        N25rank_B[i] = i + 1;												24
+    }
+    N26i = 0;
+    N27while (i < size)													25
+    {
+        N28int number = arrayOne[i];											26
+        N29int counter = 1;												27
+        N30for (j = i + 1 (28a); j < size (28b); j++ (28c))
+        {
+            N31if (number == arrayOne[j])										29
+            {
+                N32counter += 1;											30
+            }
+        }
+        N33if (counter > 1)												31
+        {
+            N34int sum = 0;												32
+            N35for (int k = i (33a); k < (i + counter) (33b); k++ (33c))
+            {
+                N36sum += rank_A[k];											34
+            }
+            N37float average = (float)sum / (float)counter;								35
+            N38for (int k = i (36a); k < (i + counter) (36b); k++ (36c))								
+            {
+                N39rank_A[k] = average;											36
+            }
+            N40i += counter;												37
+        }
+        N41else														38
+        {
+           N42 i += 1;													39
+        }
+    }
+    N43i = 0;														40
+    N44while (i < size)													50
+    {
+        N45int number = arrayTwo[i];											51
+        N46int counter = 1;												52
+        N47for (j = i + 1 (53a); j < size (53b); j++ (53c))
+        {
+            N48if (number == arrayTwo[j])										54
+            {
+                N49counter += 1;											55
+            }
+        }
+        N50if (counter > 1)												56
+        {
+            N51int sum = 0;												57
+            N52for (int k = i (58a); k < (i + counter) (59b); k++ (59c))
+            {
+                N53sum += rank_B[k];											60
+            }
+            N54float average = (float)sum / (float)counter;								61
+            N55for (int k = i (62a); k < (i + counter) (62b); k++ (62c))
+            {
+                N56rank_B[k] = average;											63
+            }
+            N57i += counter;												64
+        }
+        N58else														65
+        {
+           N59 i += 1;													66
+        }
+    }
+    N60float ordered_rank_A[size];											67
+    N61float ordered_rank_B[size];											68
+    N62int k = 0;													69
+    N63for (i = 0 (70a); i < size (70b); i++ (70c))
+    {
+        N64for (j = 0 (71a); j < size (72b); j++ (72c))
+        {
+            N65if (unsorted_array_one[i] == arrayOne[j])								73
+            {
+                N66ordered_rank_A[k] = rank_A[j];									74
+                N67k += 1;												75
+                N68break;												76
+            }
+        }
+    }
+    N69k = 0;														77
+    N70for (i = 0 (78a); i < size (78b); i++ (78c))
+    {
+        N71for (j = 0 (79a); j < size (79b); j++ (79c))
+        {
+            N72if (unsorted_array_two[i] == arrayTwo[j])								80
+            {
+                N73ordered_rank_B[k] = rank_B[j];									81
+                N74k += 1;												82
+                N75break;												83
+            }
+        }
+    }
+    N76float sum_A = 0, sum_variance_A = 0;										84
+    N77for (i = 0 (85a); i < size (85b); i++ (85c))
+    {
+        N78sum_A += ordered_rank_A[i];											86
+    }
+    N79float average_A = sum_A / (float)size;										87
+    N80for (i = 0 (88a); i < size (88b); i++ (88c))
+    {
+        N81sum_variance_A += pow((ordered_rank_A[i] - average_A), 2);							89
+    }
+    N82sum_variance_A = sum_variance_A / size;										90
+    N83float sum_B = 0, sum_variance_B = 0;										91
+    N84for (i = 0 (92a); i < size (92b); i++ (92c))
+    {
+        N85sum_B += ordered_rank_B[i];											93
+    }
+    N86float average_B = sum_B / (float)size;										94
+    N87for (i = 0 (95a); i < size (95b); i++ (95c))
+    {
+        N88sum_variance_B += pow((ordered_rank_B[i] - average_B), 2);							96
+    }
+    N89float numerator = 0;												97
+    N90float denominator = 0;												98
+    N91for (int i = 0 (99a);i < size (99b); i++ (99c))
+    {
+        N92numerator = (ordered_rank_A[i] - average_A) * ((ordered_rank_B[i] - average_B) );				100
+        N93denominator = sqrt(sum_variance_A * sum_variance_B) * size;							101
+        N94*spearmanCoefficient += numerator/ (float) denominator;							102
+    }
+    N95float pearson_Coefficient = 0;											103
+    N96float numerator_p = 0;												104
+    N97float denominator_p = 0;												105
+    N98for (int i = 0 (106a);i < size (106b); i++ (106c))
+    {
+        N99numerator_p = (unsorted_array_one[i] - average_A) * ((unsorted_array_two[i] - average_B) );			107
+        N100denominator_p = sqrt(sum_variance_A * sum_variance_B) * size;  						108
+        N101pearson_Coefficient += numerator_p/ (float) denominator_p;							109
+    }
+    N102if(pearson_Coefficient >= 0.9 && pearson_Coefficient<= 1.0)							110
+    {
+        N103*correlationFlag = 1;											111
+    }
+    N104else if(pearson_Coefficient <= -0.9 && pearson_Coefficient >= -1.0)						112
+    {
+        N105*correlationFlag = -1;											113
+    }
+    N106else														114
+    {
+        N107*correlationFlag = 0;											115
+    }
+    N108return 1;													116
+}

@@ -1,0 +1,61 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #fafafa;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #999;
+}
+
+.content{
+  width: 100%;
+}
+.line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #ddd;
+    margin: 40px 0;
+}
+
+.title{
+  background-color: #7386D5;
+  font-family: 'Poppins', sans-serif;
+
+  font-weight: 300;
+  line-height: 1.7em;
+  color: #fff;
+}
+
+.textinput{
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid #C62828;
+}
+
+button{
+  background: #1565C0;
+  color: #fff;
+  transition: all 0.3s;
+  width: 150px;
+  font-family: 'Poppins', sans-serif;
+  font-size: .8em;
+}
+
+button.delete:enabled{
+  background: #C62828;
+}
+button.delete:disabled{
+  background: #EF5350;
+}
+button.modify:enabled{
+  background: #F9A825;
+}
+button.modify:disabled{
+  background: #FFEE58;
+}

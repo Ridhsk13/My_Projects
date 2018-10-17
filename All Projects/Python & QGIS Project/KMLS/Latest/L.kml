@@ -1,0 +1,1223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>L.kml</name>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00aa00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00aa00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00aa00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff5500</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff5500</color>
+			<width>3.4</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00aa00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin00">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00aa00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00aa00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin3">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00aa00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin00">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>3.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl00">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00aa00</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin20</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin00">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff0000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00aa00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin3">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00aa00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin4">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00aa00</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin20">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff5500</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin4">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00aa00</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin20">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff5500</color>
+			<width>3.4</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin5">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00aa00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin10">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>2.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff0000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin5">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00aa00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin20</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin9</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin8</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin000">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00aa00</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl000">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00aa00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin6">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00aa00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin20">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin7">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00aa00</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin6">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00aa00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin7">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00aa00</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin8">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00aa00</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin8">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>3.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin9">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00aa00</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin7</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>My Places</name>
+		<open>1</open>
+		<Style>
+			<ListStyle>
+				<listItemType>check</listItemType>
+				<ItemIcon>
+					<state>open</state>
+					<href>:/mysavedplaces_open.png</href>
+				</ItemIcon>
+				<ItemIcon>
+					<state>closed</state>
+					<href>:/mysavedplaces_closed.png</href>
+				</ItemIcon>
+				<bgColor>00ffffff</bgColor>
+				<maxSnippetLines>2</maxSnippetLines>
+			</ListStyle>
+		</Style>
+		<Placemark>
+			<name>Park South Parking Garage, UTA</name>
+			<styleUrl>#msn_ylw-pushpin5</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-97.10734760625324,32.73199305792446,0 -97.10761232742352,32.73200048402934,0 -97.10761426358717,32.73195530240299,0 -97.10822740450715,32.73196469332403,0 -97.10822498833259,32.73200627388322,0 -97.10828746229672,32.73200446755806,0 -97.1082870400522,32.73196344021758,0 -97.10830883075543,32.73196357674974,0 -97.10831107155292,32.73186476216736,0 -97.1082970264905,32.73185969367903,0 -97.10830008264723,32.73151304659253,0 -97.1082503772427,32.73150502947495,0 -97.10824879603871,32.73145394507809,0 -97.10771879559444,32.73145171275551,0 -97.10745442100236,32.73145088278352,0 -97.10742882282013,32.73143396656982,0 -97.10736600799704,32.7314284911965,0 -97.10736484903366,32.73150857564728,0 -97.10738455099454,32.73151440703828,0 -97.10738344897067,32.73179080114947,0 -97.10734457985816,32.73178514076545,0 -97.10734760625324,32.73199305792446,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>College Park North and Central Parking</name>
+			<styleUrl>#msn_ylw-pushpin00</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-97.10736334780063,32.73364583945458,0 -97.10799467618973,32.73364727812307,0 -97.10801094566777,32.73290031502335,0 -97.10827246328684,32.73290126999238,0 -97.10828760018715,32.73238260028872,0 -97.10749917845436,32.73237408999617,0 -97.10750341387552,32.73226230796006,0 -97.10805308912011,32.73227679269861,0 -97.10805175180465,32.7321231066679,0 -97.10736870907951,32.73210286024772,0 -97.10736334780063,32.73364583945458,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>College Ministry</name>
+			<styleUrl>#msn_ylw-pushpin10</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-97.1085478497307,32.73346179784009,0 -97.10854840600449,32.73341020884934,0 -97.10856785085913,32.7334046456524,0 -97.10856641381527,32.73335512372344,0 -97.10858326476178,32.73334907125163,0 -97.10858381292728,32.73322501792821,0 -97.10857126144603,32.73322778252,0 -97.10857030800187,32.73317093191803,0 -97.10855045739297,32.73317116877464,0 -97.10855335523016,32.73311782010705,0 -97.10831892046264,32.73311864085716,0 -97.10824952542117,32.73311656050299,0 -97.10824301837432,32.73345971463444,0 -97.1085478497307,32.73346179784009,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Texadelphia</name>
+			<styleUrl>#msn_ylw-pushpin5</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-97.10843692193204,32.73219094524087,0 -97.10832230354633,32.73219430571052,0 -97.10831918408377,32.732272711719,0 -97.10842674956699,32.73227640536035,0 -97.10841593387761,32.73281721687884,0 -97.10829018393956,32.73281419290166,0 -97.10827870658248,32.73290564215655,0 -97.10858742136476,32.73291056876764,0 -97.108588204116,32.73263963698713,0 -97.10857324248828,32.73263800051241,0 -97.10857737446106,32.73252074473879,0 -97.10859146484626,32.73251052199239,0 -97.10859848393943,32.73248115215273,0 -97.10860298554341,32.73226637570058,0 -97.10849945480949,32.73225724780805,0 -97.10849627639038,32.73219591567206,0 -97.10843692193204,32.73219094524087,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Vandergriff Hall at College Park</name>
+			<styleUrl>#msn_ylw-pushpin00</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-97.10850606181795,32.73198479654776,0 -97.10850881012112,32.73196429911475,0 -97.10860136152064,32.73196362659321,0 -97.10861229520739,32.7317906171793,0 -97.10861186700419,32.73158658273975,0 -97.10861690351919,32.7312963270784,0 -97.10851736942588,32.73129460798181,0 -97.10851857545706,32.73127332176334,0 -97.10828194108217,32.73127398558287,0 -97.10827877125337,32.73141291299239,0 -97.10843101331869,32.73141702643963,0 -97.10842650032832,32.73190376505566,0 -97.10831730617342,32.73190476940661,0 -97.10831662187427,32.73198223364028,0 -97.10850606181795,32.73198479654776,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Dan Dipert Welcome center</name>
+			<styleUrl>#msn_ylw-pushpin5</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-97.10824018092501,32.73130779848208,0 -97.10824021479137,32.73126766910966,0 -97.10818061121742,32.73126623776905,0 -97.10818025850114,32.7311981885862,0 -97.10801912354022,32.73119138197404,0 -97.10801631194148,32.73120946639363,0 -97.10781043262971,32.7312072308738,0 -97.10780654767019,32.7311953870127,0 -97.10742399402744,32.73119230036929,0 -97.10742086486179,32.73133270696055,0 -97.10743128135799,32.73133786256592,0 -97.10743288527176,32.73142643834076,0 -97.10744527572302,32.73144144504792,0 -97.10753147808426,32.73144642641363,0 -97.10753292501808,32.73133835999159,0 -97.10807163597855,32.73134538877115,0 -97.10815745922135,32.7313440730008,0 -97.10816009632224,32.73139329238219,0 -97.10824540171642,32.73139596679304,0 -97.10824018092501,32.73130779848208,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>UTA blvd</name>
+			<styleUrl>#m_ylw-pushpin000</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>
+					-97.10859267556941,32.73373361373066,0 -97.1071911496941,32.73372963294013,-7.081154781429788e-010 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Spanilo Dr</name>
+			<styleUrl>#msn_ylw-pushpin4</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>
+					-97.10859268044621,32.73373357350517,-7.081154781429788e-010 -97.10871008308001,32.733410409325,0 -97.10874276678041,32.73110630604979,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>S Center St</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>
+					-97.1071911496941,32.73372963294013,-7.081154781429788e-010 -97.10724126508664,32.73108530036817,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>W 1st Street</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>
+					-97.10873056515278,32.73205583939443,-7.081154781429788e-010 -97.10722263797163,32.73203630958719,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>W 2nd Street</name>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-97.10724019216534,32.73108523440387,0 -97.10874338214693,32.73110716214106,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Panera Bread</name>
+			<LookAt>
+				<longitude>-97.10861963977158</longitude>
+				<latitude>32.73123110948468</latitude>
+				<altitude>2.819031275117073</altitude>
+				<heading>-83.61297205614304</heading>
+				<tilt>58.93273350245872</tilt>
+				<range>74.62447838814083</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-97.10858458199419,32.73128051870531,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Vandergriff Hall</name>
+			<LookAt>
+				<longitude>-97.10877844070488</longitude>
+				<latitude>32.73158889344854</latitude>
+				<altitude>0</altitude>
+				<heading>138.5672607421875</heading>
+				<tilt>48.29297151510006</tilt>
+				<range>96.34992746628376</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-97.10865213460788,32.73151823549568,2.009999998583769</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Pie Five Pizza</name>
+			<LookAt>
+				<longitude>-97.10877844070488</longitude>
+				<latitude>32.73158889344854</latitude>
+				<altitude>0</altitude>
+				<heading>138.5672607421875</heading>
+				<tilt>48.29297151510006</tilt>
+				<range>96.34992746628376</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-97.10863591989491,32.73182469713746,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Texadelpheia</name>
+			<LookAt>
+				<longitude>-97.1086186904575</longitude>
+				<latitude>32.73227449988418</latitude>
+				<altitude>0</altitude>
+				<heading>115.1572847785856</heading>
+				<tilt>32.20466802875841</tilt>
+				<range>33.95378867247599</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-97.10860967796158,32.73229026521138,188.8151062351258</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bombay Chopstick</name>
+			<LookAt>
+				<longitude>-97.10859262359904</longitude>
+				<latitude>32.7324674104342</latitude>
+				<altitude>0</altitude>
+				<heading>161.6474407428906</heading>
+				<tilt>54.52207287498623</tilt>
+				<range>69.05353341281493</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-97.10858196420595,32.73256801375286,184.546118001986</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>College Ministry</name>
+			<LookAt>
+				<longitude>-97.10867774488972</longitude>
+				<latitude>32.73333807394435</latitude>
+				<altitude>0</altitude>
+				<heading>89.69958220172305</heading>
+				<tilt>52.92433076504891</tilt>
+				<range>55.97458905717892</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-97.10860764614738,32.73329953506815,189.9416775147114</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Frozen Yogurt</name>
+			<LookAt>
+				<longitude>-97.10826322206025</longitude>
+				<latitude>32.73257969480719</latitude>
+				<altitude>0</altitude>
+				<heading>98.91199955452049</heading>
+				<tilt>87.98538489232446</tilt>
+				<range>41.554813824294</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-97.10858946280295,32.73263017827227,184.3207450860659</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>College Park North and Central Parking Entrance</name>
+			<LookAt>
+				<longitude>-97.10703738583057</longitude>
+				<latitude>32.73355418121373</latitude>
+				<altitude>0</altitude>
+				<heading>98.9126624109069</heading>
+				<tilt>87.98571559929228</tilt>
+				<range>78.39277844950999</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-97.10767154821583,32.73364788564217,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>College Park North and Central Parking Entrance 2</name>
+			<LookAt>
+				<longitude>-97.10727386518482</longitude>
+				<latitude>32.73292098829222</latitude>
+				<altitude>0</altitude>
+				<heading>89.70034455317283</heading>
+				<tilt>58.94225498275972</tilt>
+				<range>62.43126602079551</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-97.10736590416212,32.73297357797234,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Texas Trust</name>
+			<LookAt>
+				<longitude>-97.10744042609828</longitude>
+				<latitude>32.73205129417801</latitude>
+				<altitude>0</altitude>
+				<heading>-86.83017801912625</heading>
+				<tilt>35.01971094416948</tilt>
+				<range>48.56905047526774</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-97.1074616052976,32.73208064059732,196.0404468699059</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>College Park North and Central Parking Entrance 3</name>
+			<LookAt>
+				<longitude>-97.10816859513419</longitude>
+				<latitude>32.73236072374082</latitude>
+				<altitude>0</altitude>
+				<heading>-86.83057170322446</heading>
+				<tilt>35.01968898951446</tilt>
+				<range>44.27549425569566</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-97.10816872790065,32.73235398590472,2.01</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>University Police Station</name>
+			<LookAt>
+				<longitude>-97.10833493727162</longitude>
+				<latitude>32.73210890256706</latitude>
+				<altitude>0</altitude>
+				<heading>115.1574382071546</heading>
+				<tilt>32.20466802875839</tilt>
+				<range>33.95378866719697</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-97.10828687739684,32.73214535460348,189.5910032746066</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>The Lofts At College Park</name>
+			<LookAt>
+				<longitude>-97.10816993433247</longitude>
+				<latitude>32.73215773569631</latitude>
+				<altitude>0</altitude>
+				<heading>115.1574862634708</heading>
+				<tilt>28.02299459272395</tilt>
+				<range>20.8854189234902</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-97.10815696867634,32.73219776209899,189.2329929397372</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>College Park South Parking Garage Entrance</name>
+			<LookAt>
+				<longitude>-97.10738121979065</longitude>
+				<latitude>32.73175315246495</latitude>
+				<altitude>0.9361977421667602</altitude>
+				<heading>-64.02590610007489</heading>
+				<tilt>49.20697611465939</tilt>
+				<range>89.09946037899533</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-97.10734805201116,32.73167789507976,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>college Park South Parking Garage Entrance 2</name>
+			<LookAt>
+				<longitude>-97.10818358540786</longitude>
+				<latitude>32.73197775198928</latitude>
+				<altitude>0</altitude>
+				<heading>138.5675923203659</heading>
+				<tilt>64.21239302157595</tilt>
+				<range>39.14735129641536</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-97.10823060943856,32.73202278721615,185.4266036154471</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Basketball Court</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-97.10815255746286,32.73346763607101,0 -97.1081558389357,32.73330780544563,0 -97.10801955073544,32.73330240948116,0 -97.10801450585051,32.7334684851672,0 -97.10815255746286,32.73346763607101,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Volleyball Court</name>
+			<styleUrl>#msn_ylw-pushpin20</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-97.10801743473402,32.73329061497326,0 -97.10815639716856,32.73329457746407,0 -97.10815701687375,32.7330775033279,0 -97.10801867000707,32.73307207336325,0 -97.10801743473402,32.73329061497326,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Dan Dipert Welcome center Entrance</name>
+			<LookAt>
+				<longitude>-97.10743820621367</longitude>
+				<latitude>32.73120415906806</latitude>
+				<altitude>3.494946320608455</altitude>
+				<heading>2.025334634248047</heading>
+				<tilt>59.89841761006029</tilt>
+				<range>78.40978655890781</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-97.10758211144405,32.73118793417049,190.4196198853201</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Dan Dipert Path</name>
+			<styleUrl>#msn_ylw-pushpin3</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-97.10758225780549,32.73119916712975,0 -97.10757970106187,32.73118740880248,0 -97.1075713009182,32.73109001202512,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Panera Bread Path</name>
+			<styleUrl>#m_ylw-pushpin000</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-97.10858042062829,32.73128071027709,0 -97.10874224473434,32.73126587185298,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>College Park North And Central Parking Path</name>
+			<styleUrl>#msn_ylw-pushpin6</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-97.10766954283803,32.7336470600372,0 -97.10766527321199,32.7337338853589,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>College Ministry Path</name>
+			<styleUrl>#msn_ylw-pushpin8</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-97.10860102455922,32.73329932211387,0 -97.10871013434087,32.73329750128081,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>College Park South Parking Garage Entrance Path</name>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-97.1073531251254,32.73167829834418,0 -97.10722234561953,32.73168053568463,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Trexas Trust Path</name>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-97.10746231740929,32.73208046213375,0 -97.10746074336208,32.73203958959645,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Pive Five Path</name>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-97.10873568712245,32.73183539949145,0 -97.10863244717392,32.73182445197798,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Vandergriff Hall Path</name>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-97.10873623190528,32.73149259048545,0 -97.10862539741859,32.73149916928383,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>College Park North and Central Parking Entrance 2</name>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-97.10720106871629,32.73298531670075,0 -97.10736583966106,32.73297541320925,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>University police station Path</name>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-97.10828606532785,32.73214599827328,0 -97.10828512336171,32.73205049849787,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>The Lofts At College Park path</name>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-97.1081567619222,32.73219784764645,0 -97.10815657598897,32.73204797744297,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Frozen Yogurt Path</name>
+			<styleUrl>#msn_ylw-pushpin7</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-97.10858554418837,32.7326302236221,0 -97.10872072322933,32.73262474488496,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Bombay Chopstick Path</name>
+			<styleUrl>#msn_ylw-pushpin7</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-97.1085792831703,32.73256505581706,0 -97.10872239311482,32.73255930010464,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Texadelphia Path</name>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-97.10872643770929,32.73228889206516,0 -97.10860817129904,32.73229011979777,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>college Park South Parking Garage Entrance 2 Path</name>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-97.1082306860333,32.73202138442277,0 -97.10823222986527,32.73204916056535,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>College Park North And Central Parking 3 Path</name>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-97.10818591576947,32.73235546807901,0 -97.108188518492,32.73204973296709,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

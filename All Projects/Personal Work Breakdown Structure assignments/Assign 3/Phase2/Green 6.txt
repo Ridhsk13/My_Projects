@@ -1,0 +1,99 @@
+
+.
+//Define Correlate() Function
+
+//int main()
+_Bool Correlate (int size, float arrayOne[], float arrayTwo[], float * spearmanCoefficient, float * correlationFlag)
+{
+  int size = 0;
+  float rankOne[]={0};
+  float rankTwo[]={0};
+  float var_x = 0, var_y = 0, mean_x = 0, mean_y = 0;  
+  
+  for(int i = 0 (1a);i <size (1b);i++ (1c)){
+      float currentRankOne = 1;							2
+      for(int j=0 (3a); j<i (3b); j++ (3c)){
+	if(arrayOne[i]>arrayOne[j])						4
+	{
+		currentRankOne++;						5
+	} 
+	else									6
+	{
+		rankOne[j]++;							7
+	}
+     }
+    rankOne[i]=currentRankOne;   						8
+    }
+  for(int i = 0 (9a);i <size (9b);i++ (9c)){
+      float currentRankTwo = 1;							10
+      for(int j=0 (11a); j<i (11b); j++ (11c)){
+	if(arrayTwo[i]>arrayTwo[j])						12
+	{
+		currentRankTwo++;						13
+	}
+	else									14
+	{
+		rankTwo[j]++;							15
+	}
+     }
+    rankTwo[i]=currentRankTwo;   						16
+    }
+  for(int i=0 (17a);i<size (17b);i++ (17c))
+	{
+		if(arrayOne[i]==arrayOne[i+1])					18
+			{
+				rankOne[i]=(rankOne[i]+rankOne[i+1])/2;		19
+				rankOne[i+1]=rankOne[i];			20
+			}
+		else								21
+			{
+				rankOne[i]=rankOne[i];				22
+			}
+	}
+ for(int i=0 (23a);i<size (23b);i++ (23c))
+	{
+		if(arrayTwo[i]==arrayTwo[i+1])					24
+			{	
+				rankTwo[i]=(rankTwo[i]+rankTwo[i+1])/2;		25
+				rankTwo[i+1]=rankTwo[i];			26
+			}
+		else								27
+			{
+				rankTwo[i]=rankTwo[i];				28
+			}
+	}
+
+for(int i =0 (29a);i < size (29b);i++ (29c)){
+      mean_x += rankOne[i];							30
+      mean_y += rankTwo[i];							31
+    }
+    mean_x /= size;								32
+    mean_y /= size;								33
+
+for(int i = 0 (34a);i <size (34b);i++ (34c)){
+      var_x += (rankOne[i] - mean_x)*(rankOne[i] - mean_x);			35
+      var_y += (rankTwo[i] - mean_y)*(rankTwo[i] - mean_y);			36
+    }
+    
+    var_x /= size;								37
+    var_y /= size;								38
+
+    float denom = 0;								39
+    denom = sqrt (size*var_x*size*var_y);					40
+
+    for (int i = 0 (41a);i<size (41b);i++ (41c)){
+      spearmanCoefficient += (rankOne[i] - mean_x)*(rankTwo[i] - mean_y);	42
+	}
+    
+    spearmanCoefficient /= denom;						43
+    if (spearmanCoefficient >= 0.9  && spearmanCoefficient<=1.0)		44
+      correlationFlag = 1;							45
+    else if (spearmanCoefficient >= -1  && spearmanCoefficient<=-0.9)		46
+      correlationFlag = -1;							47
+    else 									48
+      correlationFlag = 0;							49
+    
+    if (size > 0)								50
+    return 1;									51
+    else return 0;								52
+}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Science Hall.kml</name>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Placemark>
+		<name>Science Hall</name>
+		<LookAt>
+			<longitude>-97.11359130198851</longitude>
+			<latitude>32.73058340186678</latitude>
+			<altitude>0</altitude>
+			<heading>-0.03266245252728374</heading>
+			<tilt>24.4274674221434</tilt>
+			<range>136.0358619986235</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+								-97.11427055529987,32.73039809640294,0 -97.11381776016594,32.73038882011068,0 -97.11379571419847,32.73038855920391,0 -97.11379407515194,32.73033003501435,0 -97.11349010098827,32.73032135958326,0 -97.11349333947877,32.73048544857904,0 -97.11349146771231,32.73063725515404,0 -97.11372004480138,32.73064375897086,0 -97.11372535085661,32.73062964696393,0 -97.11394341999404,32.73062977303755,0 -97.1139411695421,32.73067685756366,0 -97.11391902107651,32.73068025438582,0 -97.11391146835921,32.73077540682597,0 -97.11379067683659,32.73077698836992,0 -97.113512478255,32.73077377406724,0 -97.11350733196834,32.73087566202037,0 -97.11350628864047,32.73096220963708,0 -97.11361900791782,32.73096317088857,0 -97.11393214676733,32.73096848364845,0 -97.11404822966318,32.73096826475923,0 -97.11405033267164,32.73098224797973,0 -97.11425703814705,32.73098661997939,0 -97.1142600164233,32.73090012673652,0 -97.11426945725007,32.73053276371154,0 -97.11427055529987,32.73039809640294,0
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

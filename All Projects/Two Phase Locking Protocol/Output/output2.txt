@@ -1,0 +1,67 @@
+run:
+Request to begin T1
+T1 is started
+T1 wants to read Y
+T1 requests read lock on Y
+T1 succesfully read locked Y
+T1 wants to write Y
+T1 requests write lock on Y
+T1 upgrades lock from read -> write on Y
+T1 wants to read Z
+T1 requests read lock on Z
+T1 succesfully read locked Z
+Request to begin T2
+T2 is started
+T2 wants to read X
+T2 requests read lock on X
+T2 succesfully read locked X
+T2 wants to write X
+T2 requests write lock on X
+T2 upgrades lock from read -> write on X
+T1 wants to write Z
+T1 requests write lock on Z
+T1 upgrades lock from read -> write on Z
+T2 wants to read Y
+T2 requests read lock on Y
+write
+T2 begins abort
+T2 is releasing locks
+T2 releasing X
+T2 Released X
+T2 aborted successfully
+T1 begins commit
+T1 is releasing locks
+T1 releasing Y
+T1 Released Y
+T1 releasing Z
+T1 Released Z
+T1 ended successfully 
+Request to begin T3
+T3 is started
+T3 wants to read Z
+T3 requests read lock on Z
+T3 succesfully read locked Z
+T3 wants to write Z
+T3 requests write lock on Z
+T3 upgrades lock from read -> write on Z
+T3 wants to read X
+T3 requests read lock on X
+T3 succesfully read locked X
+T3 wants to write X
+T3 requests write lock on X
+T3 upgrades lock from read -> write on X
+Request to begin T4
+T4 is started
+T4 wants to write X
+T4 requests write lock on X
+T4 begins abort
+T4 is releasing locks
+T4 aborted successfully
+T3 begins commit
+T3 is releasing locks
+T3 releasing Z
+T3 Released Z
+T3 releasing X
+T3 Released X
+T3 ended successfully 
+BUILD SUCCESSFUL (total time: 1 second)

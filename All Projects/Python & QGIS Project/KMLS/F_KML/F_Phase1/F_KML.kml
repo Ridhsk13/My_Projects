@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>MainLayerUTAPartF</name>
+	<open>1</open>
+	<StyleMap id="line-000000-1200-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#line-000000-1200-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#line-000000-1200-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="poly-000000-1200-77">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#poly-000000-1200-77-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#poly-000000-1200-77-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="poly-000000-1200-77-normal">
+		<LineStyle>
+			<color>ff000000</color>
+			<width>1.2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d000000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="line-000000-1200-nodesc-normal">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>1.2</width>
+		</LineStyle>
+	</Style>
+	<Style id="line-000000-1200-nodesc-highlight">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>1.8</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="icon-1899-0288D1-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="icon-1899-0288D1-nodesc-normal">
+		<IconStyle>
+			<color>ffd18802</color>
+			<Icon>
+				<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+			</Icon>
+			<hotSpot x="16" y="32" xunits="pixels" yunits="insetPixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="poly-000000-1200-77-highlight">
+		<LineStyle>
+			<color>ff000000</color>
+			<width>1.8</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d000000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="icon-1899-0288D1-nodesc-highlight">
+		<IconStyle>
+			<color>ffd18802</color>
+			<Icon>
+				<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+			</Icon>
+			<hotSpot x="16" y="32" xunits="pixels" yunits="insetPixels"/>
+		</IconStyle>
+		<LabelStyle>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>1.2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>1.8</width>
+		</LineStyle>
+	</Style>
+	<Placemark>
+		<name>Architecture Building</name>
+		<description>Academic Building,Library</description>
+		<ExtendedData>
+  		<Data name="PointOfInterest">
+    		<value>Academic Building</value>
+  		</Data>
+			<Data name="PointOfInterest">
+				<value>Library</value>
+			</Data>
+		</ExtendedData>
+		<styleUrl>#poly-000000-1200-77</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-97.11629679999999,32.7308481,0 -97.11622839999998,32.7308469,0 -97.11622839999998,32.7308289,0 -97.1162485,32.7308289,0 -97.11624990000001,32.7307623,0 -97.1161855,32.7307601,0 -97.1160125,32.7307578,0 -97.1160051,32.7310139,0 -97.1160568,32.7310133,0 -97.11605609999999,32.7313117,0 -97.11608689999999,32.7313196,0 -97.11608560000001,32.7313907,0 -97.1160558,32.7313899,0 -97.1160534,32.7315712,0 -97.11598229999999,32.7315729,0 -97.11597089999998,32.7315802,0 -97.11591129999999,32.7315814,0 -97.11591060000001,32.7315504,0 -97.11587240000002,32.7315509,0 -97.115871,32.7315357,0 -97.1158556,32.7315351,0 -97.1158543,32.7315013,0 -97.1157322,32.7315013,0 -97.11573090000002,32.7315346,0 -97.1157128,32.7315362,0 -97.1157128,32.7315498,0 -97.11567119999999,32.7315498,0 -97.1156699,32.7316519,0 -97.1157121,32.7316536,0 -97.1157128,32.7316716,0 -97.11573090000002,32.7316708,0 -97.1157305,32.7317035,0 -97.1157637,32.7317041,0 -97.1157637,32.7317435,0 -97.1159243,32.7317444,0 -97.11592469999999,32.7318149,0 -97.1159602,32.7318149,0 -97.1159619,32.7318211,0 -97.1159703,32.7318214,0 -97.1162358,32.7318251,0 -97.11623609999998,32.731765,0 -97.1162157,32.7317639,0 -97.1162164,32.7317458,0 -97.11629149999999,32.7317458,0 -97.11629220000002,32.7313016,0 -97.11629679999999,32.7308481,0
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Fine Arts Building</name>
+		<description>Academic Building</description>
+		<ExtendedData>
+			<Data name="PointOfInterest">
+				<value>Academic Building</value>
+			</Data>
+		</ExtendedData>
+		<styleUrl>#poly-000000-1200-77</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-97.115004,32.7307511,0 -97.11481620000001,32.73075,0 -97.1148149,32.7308453,0 -97.114774,32.7308453,0 -97.1147733,32.7309051,0 -97.11479009999999,32.7309062,0 -97.11478740000001,32.7313818,0 -97.1147646,32.7313818,0 -97.1147632,32.7314449,0 -97.1148048,32.7314455,0 -97.11480210000001,32.7317149,0 -97.11481590000001,32.7317149,0 -97.11481590000001,32.7318161,0 -97.115472,32.7318209,0 -97.11547539999999,32.7314218,0 -97.11555110000001,32.7314212,0 -97.11555180000001,32.731393,0 -97.1155102,32.7313925,0 -97.11551089999999,32.7313084,0 -97.115639,32.7313084,0 -97.11564300000002,32.7310056,0 -97.1155431,32.731005,0 -97.1155438,32.7309852,0 -97.1155766,32.7309847,0 -97.1155773,32.7309237,0 -97.1155485,32.7309232,0 -97.1155485,32.7307607,0 -97.11514750000001,32.7307579,0 -97.11514680000001,32.7307525,0 -97.115004,32.7307511,0
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Music Building</name>
+		<description>Academic Building</description>
+		<ExtendedData>
+			<Data name="PointOfInterest">
+				<value>Academic Building</value>
+			</Data>
+		</ExtendedData>
+		<styleUrl>#poly-000000-1200-77</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-97.115004,32.7307533,0 -97.115004,32.7305581,0 -97.1150214,32.7305581,0 -97.11502340000001,32.73057,0 -97.11530740000001,32.730572,0 -97.11530869999999,32.7305158,0 -97.11536839999999,32.7305156,0 -97.1153691,32.7304118,0 -97.1153305,32.7304109,0 -97.1153322,32.7302157,0 -97.11502880000002,32.7302129,0 -97.11502809999999,32.7301605,0 -97.11484970000001,32.7301565,0 -97.11484570000002,32.7304154,0 -97.11483369999999,32.730416,0 -97.11483430000001,32.7304019,0 -97.11477129999999,32.7304008,0 -97.11476860000001,32.7304786,0 -97.1148196,32.7304809,0 -97.11481620000001,32.7307522,0 -97.115004,32.7307533,0
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Smart Hospital</name>
+		<description>Hospital</description>
+		<ExtendedData>
+			<Data name="PointOfInterest">
+				<value>Hospital</value>
+			</Data>
+		</ExtendedData>
+		<styleUrl>#poly-000000-1200-77</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-97.1161798,32.7304905,0 -97.1161795,32.7304256,0 -97.11619930000001,32.7304254,0 -97.1162003,32.7303946,0 -97.11617910000001,32.7303938,0 -97.1161795,32.7303261,0 -97.11564339999998,32.7303295,0 -97.11564439999999,32.7302381,0 -97.11544859999999,32.7302372,0 -97.11545090000001,32.7304352,0 -97.11567960000001,32.7304341,0 -97.1156799,32.7304928,0 -97.1161798,32.7304905,0
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>LineF1</name>
+		<styleUrl>#line-000000-1200-nodesc</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-97.1163619,32.7319041,0 -97.11523259999999,32.7319221,0 -97.11520049999999,32.7319898,0 -97.1150932,32.7319469,0 -97.11497249999999,32.7319492,0 -97.1148786,32.7319402,0 -97.1148223,32.731895,0 -97.1147914,32.7318623,0 -97.11475660000002,32.7318759,0 -97.1147646,32.7319605,0 -97.114723,32.7319582,0 -97.11471899999999,32.7319041,0 -97.11452990000001,32.7318894,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>F_Arch_E1</name>
+		<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+		<Point>
+			<coordinates>-97.11629480000001,32.7313592,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>F_ARCH_E2</name>
+		<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+		<Point>
+			<coordinates>-97.1160896,32.7313321,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>F_ARCH_E3</name>
+		<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+		<Point>
+			<coordinates>-97.11605470000001,32.7314833,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>F_ARCH_E4</name>
+		<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+		<Point>
+			<coordinates>-97.1162197,32.7308436,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>F_SmrtHsptl_E1</name>
+		<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+		<Point>
+			<coordinates>-97.116209,32.7304036,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>F_SmrtHsptl_E2</name>
+		<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+		<Point>
+			<coordinates>-97.1156591,32.7304307,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>F_SmrtHsptl_E3</name>
+		<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+		<Point>
+			<coordinates>-97.1156675,32.7303272,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>F_Music_E1</name>
+		<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+		<Point>
+			<coordinates>-97.1153439,32.7304177,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>F_Music_E2</name>
+		<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+		<Point>
+			<coordinates>-97.1150214,32.7305581,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>F_FineArts_E1</name>
+		<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+		<Point>
+			<coordinates>-97.1155089,32.7313648,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>F_FineArts_E2</name>
+		<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+		<Point>
+			<coordinates>-97.11557389999999,32.7309553,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>F_FineArts_E3</name>
+		<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+		<Point>
+			<coordinates>-97.11506369999998,32.7307443,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>F_FineArts_E4</name>
+		<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+		<Point>
+			<coordinates>-97.1150047,32.7318071,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>F_WNedd</name>
+		<styleUrl>#line-000000-1200-nodesc</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-97.1163619,32.7319041,0 -97.1163672,32.7302231,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>F_GreekRow_L1</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-97.11640742191958,32.73071902646284,0 -97.1145004,32.7307026,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>F_GreekRow_L2</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-97.11639514413847,32.73058849188033,0 -97.11451919999999,32.7306247,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>F_SH_L1</name>
+		<styleUrl>#line-000000-1200-nodesc</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-97.1163672,32.7302231,0 -97.11537749999999,32.7302186,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>F_ML_L1</name>
+		<styleUrl>#line-000000-1200-nodesc</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-97.1147418,32.7306247,0 -97.11473909999998,32.7303833,0 -97.11480349999999,32.7303788,0 -97.11480349999999,32.7301306,0 -97.11510119999998,32.7301261,0 -97.11511189999999,32.7301825,0 -97.11535869999999,32.7301825,0 -97.11537749999999,32.7302186,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>F_MusicEntrance_Line</name>
+		<styleUrl>#line-000000-1200-nodesc</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-97.1153989,32.7302186,0 -97.1153305,32.7304109,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>F_MusicEntrance_Line2</name>
+		<styleUrl>#line-000000-1200-nodesc</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-97.1154177,32.7305999,0 -97.11540700000001,32.7303946,0 -97.1153305,32.7304109,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>F_MusicEntrance_line3</name>
+		<styleUrl>#line-000000-1200-nodesc</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-97.11501269999999,32.7306135,0 -97.115004,32.7305581,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>F_SmHsEnt_L1</name>
+		<styleUrl>#line-000000-1200-nodesc</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-97.1163672,32.7304217,0 -97.116209,32.7304036,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>F_SmHsEnt_L2</name>
+		<styleUrl>#line-000000-1200-nodesc</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-97.1156538,32.7306044,0 -97.1156591,32.7304307,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>F_SmHsEnt_L3</name>
+		<styleUrl>#line-000000-1200-nodesc</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-97.11567790000001,32.7302209,0 -97.1156675,32.7303272,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>F_ArchEnt_L1</name>
+		<styleUrl>#line-000000-1200-nodesc</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-97.11621700000001,32.730724,0 -97.11622839999998,32.7308469,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>F_ArchEnt_L2</name>
+		<styleUrl>#line-000000-1200-nodesc</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-97.1163619,32.7308278,0 -97.11622839999998,32.7308469,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>F_ArchEnt_L3</name>
+		<styleUrl>#line-000000-1200-nodesc</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-97.1163645,32.7313716,0 -97.11629480000001,32.7313592,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>F_ArchEnt_L4</name>
+		<styleUrl>#line-000000-1200-nodesc</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-97.1155545,32.7319131,0 -97.11557330000001,32.7314844,0 -97.11605470000001,32.7314833,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>F_ArchEnt_L5</name>
+		<styleUrl>#line-000000-1200-nodesc</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-97.11551160000002,32.7319131,0 -97.11555719999998,32.731446,0 -97.1157503,32.7314212,0 -97.11578249999998,32.7313693,0 -97.11605880000001,32.7313648,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>F_FnArtsEnt_L2</name>
+		<styleUrl>#line-000000-1200-nodesc</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-97.1156457,32.7319063,0 -97.11563769999999,32.7313919,0 -97.1155089,32.7313648,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>F_FnArtsEnt_L1</name>
+		<styleUrl>#line-000000-1200-nodesc</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-97.1163672,32.7313547,0 -97.1155089,32.7313648,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>F_FnArtsEnt_L3</name>
+		<styleUrl>#line-000000-1200-nodesc</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-97.11560550000002,32.7307127,0 -97.11557389999999,32.7309553,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>F_FnArtsEnt_L4</name>
+		<styleUrl>#line-000000-1200-nodesc</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-97.11636050000001,32.7313332,0 -97.11580930000001,32.7313355,0 -97.11579319999999,32.7312904,0 -97.11568060000001,32.7312858,0 -97.11566980000001,32.730988,0 -97.1155766,32.7309847,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>F_SmHsEnt_L4</name>
+		<styleUrl>#line-000000-1200-nodesc</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-97.11627599999999,32.7305909,0 -97.11626530000001,32.7304555,0 -97.11619930000001,32.7304254,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>F_FnArtsEnt_L5</name>
+		<styleUrl>#line-000000-1200-nodesc</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-97.11505029999999,32.7307127,0 -97.115061,32.7307624,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>F_FnArtsEnt_L6</name>
+		<styleUrl>#line-000000-1200-nodesc</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-97.11501810000002,32.7319492,0 -97.1150047,32.7318071,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>F_PathBehind_FnArts</name>
+		<styleUrl>#line-000000-1200-nodesc</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-97.1147914,32.7318623,0 -97.11473380000001,32.731789,0 -97.1147418,32.7306586,0 -97.11449500000001,32.7306631,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>F_Collins</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-97.11467733454229,32.7320682429731,0 -97.11468749637989,32.72993252916557,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>F_ConnectToPartD</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-97.11641680596665,32.73142044995262,0 -97.11636292198214,32.7314186622101,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>F_ConnectToPartD_L2</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-97.11636102429939,32.73190346951751,0 -97.11641704442164,32.73191517344364,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>

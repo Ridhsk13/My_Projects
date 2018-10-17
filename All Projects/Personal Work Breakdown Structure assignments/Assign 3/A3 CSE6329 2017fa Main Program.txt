@@ -1,0 +1,72 @@
+ 
+// Test program for the CSE 6329 Spring 2017 Correlate() function.
+// This test program performs the following:
+//     1. Prompts the user to enter the size (number of elements) of the data array/s to be processed.
+//     2. Prompts the user to enter the data items for the first array.
+//     3. Populates the "size" and "ArrayOne[]" parameters with the user-entered data.
+//     4. Prompts the user to enter the data items for the second array.
+//     3. Populates the "size" and "ArrayTwo[]" parameters with the user-entered data.
+//     4. Displays the user-entered inputs:  "size"  and "ArrayOne []", "ArrayTwo []".
+//     5. Displays Correlate() outputs: Spearman Coefficient, Correlation Flag inputValidityFlag (Stats() return value).
+
+#include<stdio.h>
+#include<math.h>
+
+
+			
+int main( )
+{
+    // Initialize outputs
+    float spearmanCoefficient = 0.0;
+    float correlationFlag = 0.0;
+    
+     _Bool inputValidityFlag = 0;
+    float ArrayOne[100], ArrayTwo[100];
+    
+    int i; /* Array index  */
+
+    int size = 0;
+   
+    
+    //Get the size of data set
+    
+    printf("Enter size of data set\n");										1
+    scanf ("%d", &size);											2
+    printf("\n# elements = %d", size);										3
+    
+    //Get input Array One
+    printf("Input for Array One");										4
+        for(i=0 (5a); i <= size-1 (5b); i++ (5c))
+        {
+            printf("\nEnter data item: \n");									6
+            scanf("%f", &ArrayOne[i]);										7
+        }
+
+    //Get input Array Two
+    printf("Input for Array Two");										8
+        for(i=0 (9a); i <= size-1 (9b); i++ (9c))
+        {
+            printf("\nEnter data item: \n");									10
+            scanf("%f", &ArrayTwo[i]);										11
+        }
+
+    inputValidityFlag = Correlate (size, ArrayOne, ArrayTwo, &spearmanCoefficient, &correlationFlag);		
+    printf("\nValidityFlag = %d\n", inputValidityFlag);								12
+    
+    if (inputValidityFlag)											13
+    {
+        for (i = 0 (14a); i <= size-1 (14b); i++ (14c))
+        {
+            printf("\nArrayOne[%d] = %10.3f      ArrayTwo[%d] = %10.3f", i, ArrayOne[i], i, ArrayTwo[i]);	15
+        }
+        printf("\n Spearman Coefficient =    %10.2f", pearsonCoefficient);					16
+        printf("\n Correlation Flag =    %10.2f", correlationFlag);						17
+         
+    }		
+    else													
+    {
+        printf("\nInput is invalid; outputs are not displayed\n");						19
+    }
+    
+    return 1;													20
+}

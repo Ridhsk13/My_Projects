@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>K_PlanetariumPI-B.kml</name>
+	<Style id="line-673AB7-1388-nodesc-normal">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffb73a67</color>
+			<width>1.388</width>
+		</LineStyle>
+	</Style>
+	<Style id="line-673AB7-1388-nodesc-highlight">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffb73a67</color>
+			<width>2.082</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="line-673AB7-1388-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#line-673AB7-1388-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#line-673AB7-1388-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>K_PlanetariumPI-B</name>
+		<styleUrl>#line-673AB7-1388-nodesc</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-97.1122366,32.7298824,0 -97.1122366,32.7297831,0 -97.1122366,32.7296838,0 -97.1122366,32.7295665,0 -97.11224730000001,32.7294537,0 -97.1122393,32.7293522,0 -97.11223389999999,32.7292416,0 -97.11222320000002,32.7292055,0 -97.1122366,32.7291491,0 -97.1122258,32.7291243,0 -97.1122312,32.7290273,0 -97.1122312,32.72884,0 -97.11224730000001,32.7286459,0 -97.1122393,32.7285308,0 -97.1122206,32.7283751,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>

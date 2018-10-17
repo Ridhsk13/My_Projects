@@ -1,0 +1,41 @@
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+.content {
+  margin-left: 250px;
+    padding: 20px;
+    min-height: 100vh;
+    transition: all 0.3s;
+}
+
+.table_text{
+  font-size: .8em;
+
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #fafafa;
+}
+
+button{
+  background: #1565C0;
+  color: #fff;
+  transition: all 0.3s;
+  width: 150px;
+  font-family: 'Poppins', sans-serif;
+  font-size: .8em;
+}
+
+button.delete:enabled{
+  background: #C62828;
+}
+button.delete:disabled{
+  background: #EF5350;
+}
+button.modify:enabled{
+  background: #F9A825;
+}
+button.modify:disabled{
+  background: #FFEE58;
+}

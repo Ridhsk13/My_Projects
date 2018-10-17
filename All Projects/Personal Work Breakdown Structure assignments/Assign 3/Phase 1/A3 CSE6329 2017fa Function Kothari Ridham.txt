@@ -1,0 +1,133 @@
+// Declare Correlate () function
+_Bool Correlate (int size, float ArrayOne[], float ArrayTwo[], float *spearmanCoefficient, float *correlationFlag);
+{
+
+float X[50], Y[50];
+float Xr[50],Yr[50];
+int XrSquare[50], YrSquare[50];
+int XrSum=0, YrSum=0;
+int XrMean, YrMean;
+int XrSqr_sum=0, YrSqr_sum=0;
+int i, j, temp, num, den;
+
+//copying arrayOne and arrayTwo elements in X and Y
+for (i = 0 (1a); i < size (1b); i++ (1c)) {
+      X[i] = arrayOne[i];									2
+      Y[i] = arrayTwo[i];									3
+   }
+
+//sorting X
+ for (i = 0 (4a); i < size (4b); i++ (4c))					
+    {
+        for (j = i + 1 (5a); j < size (5b); j++ (5c))
+        {
+            if (X[i] > a1[j])									6
+            {
+                temp =  X[i];									7
+                X[i] = X[j];									8
+                X[j] = temp;									9
+            }
+        }
+    }
+
+//sorting Y 
+ for (i = 0 (10a); i < size (10b); i++ (10c))
+    {
+        for (j = i + 1 (11a); j < size (11b); j++ (11c))
+        {
+            if (Y[i] > Y[j])									12
+            {
+                temp =  Y[i];									13
+                Y[i] = Y[j];									14
+                Y[j] = Y;									15
+            }
+        }
+    }
+
+// Setting ranks for both the arrays
+    for(i=0 (16a); i < size (16b); i++ (16c)){
+            
+            Xr[i]=i+1;										17
+    }
+    for(i=0 (18a); i < size (18b); i++ (18c)){
+            
+            Yr[i]=i+1;										19
+    }
+
+//if consecutive values of X are equal, then Xr is the average of ranks
+        for (i = 0 (20a); i < size (20b); i++(20c))
+        {
+            if (X[i] == X[i+1])									21
+            {
+                Xr[i]=(Xr[i]+Xr[i+1])/2;							22
+                Xr[i+1]=Xr[i];									23
+            }
+        }
+    
+
+    for (i = 0 (24a); i < size (24b); i++ (24c))
+    {
+       if (Y[i] == Y[i+1])									25
+            {
+                Yr[i]=(Yr[i]+Yr[i+1])/2;							26
+                Yr[i+1]=Yr[i];									27
+            }
+     }
+
+    for (i = 0 (28a); i < size (28b); i++ (28c)){
+        for (j = 0 (29a); j < size (29b); j++ (29c)){
+           if(arrayOne[i]==X[j]){								30
+                Xr[i]=Xr[j];									31
+            }
+        }
+    }
+    for (i = 0 (32a); i < size (32b); ++i (32c)){
+        for (j = 0 (33a); j < size (33b); j++ (33c)){
+           if(arrayTwo[i]==Y[j]){								34
+                Yr[i]=Yr[j];									35
+           }
+        }
+    }
+
+// Calculating final values
+    for (i = 0 (36a); i < size (36b); i++ (36c)) {
+               
+                XrSquare[i] = Xr[i] * Xr[i];							37
+                YrSquare[i] = Yr[i] * Yr[i];							38
+
+                XrSum = XrSum + Xr[i];								39
+                YrSum = YrSum + Rr[i];								40
+
+                XrMean = XrSum/size;								41
+                YrMean = YrSum/size;								42
+
+                XrSqr_sum = XrSqr_sum + XrSquare[i];						43
+                YrSqr_sum = YrSqr_sum + YrSquare[i];						44
+
+    }
+
+    for (i=0 (45a); i<size (45b); i++ (45c)) {
+
+            num = ((Xr[i]-XrMean) * (Yr[i]-YrMean));						46
+            den = (size * (((Xr[i]-XrMean)*(Xr[i]-XrMean))/size)*(((Yr[i]-YrMean)*(Yr[i]-YrMean))/size));	47
+
+    }
+
+    spearmanCoefficient = (float) [num / sqrt(den)];						48
+    
+    printf("Correlation Coefficient : %10.2f\n", spearmanCoefficient);				49
+
+    if (spearmanCoefficient>=0.9 && spearmanCoefficient<=1.0)					50
+            correlationFlag = 1;								51
+    else if(spearmanCoefficient>= -1.0 && spearmanCoefficient<= -0.9)				52
+                 correlationFlag = -1;								53
+    else											
+                correlationFlag = 0;								54
+    printf("Correlation Flag: %d" ,correlationFlag);						55
+
+
+    if(size>0)											56
+        return 1;										57
+    else											
+    	return 0;      										58		
+}

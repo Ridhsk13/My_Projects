@@ -1,0 +1,39 @@
+
+//Define Correlate() Function
+
+_Bool Correlate (int size, float arrayOne[], float arrayTwo[], float * spearmanCoefficient, float * correlationFlag)
+{
+    
+    // Function Input:
+    // The function input is comprised of the the first three parameters in the Correlate()argument list :
+    //    1. size  equals the number of elements in the input array (arrayOne and arrayTwo).
+    //    2. arrayOne[]  and arrayTwo[] are arrays of real numbers of type float. The numbers may be positive or negative.
+    //       There is no limit on the size of the numbers.  The values may be as large or as small as is allowed by
+    //       the float type on the particular computer that executes the function.
+    //       The input data will be stored in range 0 to size-1.
+    
+    // Function Output:
+    
+    
+    // The function will produce two outputs consisting of the latter two parameters in the Correlate() argument list
+    // plus the Correlate() _Bool return parameter:
+    //    1. spearmanCoefficient (type float) contains the result of the formulation. 
+    //       It is a real number ranging from -1 to +1.  
+    //    2. correlationFlag (type float) which is the flag to indicate whether the arrays are positively correlated (+1),
+    //       negatively correlated (-1), or not related at all (0). Thus it can have any one of the three values:-1,0,+1.
+	//		 The three cases precisely are as follows:
+	//		 Flag will be +1 when the Pearson coefficient is in the range from 0.9 to 1.0
+	//		 Flag will be -1 when the Pearson coefficient is in the range from -0.9 to -1.0
+	//		 Flag will be 0 otherwise.
+	
+    //    3. Correlate()(type _Bool) returns 1 if size > 0 and returns 0 if size <= 0.
+
+
+    //   HINT:  for the Spearman Coefficient use the formula given on Module 15 Slide 28 and also see later slides for how the Spearman coefficient is calculated (you must sort the data and such). Also see the requirements in Appendix A of the SOW
+
+YOUR FUNCTION GOES HERE
+    
+    
+
+ 
+}

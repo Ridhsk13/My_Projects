@@ -1,0 +1,177 @@
+
+//Define Correlate() Function
+
+_Bool Correlate (int size, float arrayOne[], float arrayTwo[], float * spearmanCoefficient, float * correlationFlag)
+{
+    
+    // Function Input:
+    // The function input is comprised of the the first three parameters in the Correlate()argument list :
+    //    1. size  equals the number of elements in the input array (arrayOne and arrayTwo).
+    //    2. arrayOne[]  and arrayTwo[] are arrays of real numbers of type float. The numbers may be positive or negative.
+    //       There is no limit on the size of the numbers.  The values may be as large or as small as is allowed by
+    //       the float type on the particular computer that executes the function.
+    //       The input data will be stored in range 0 to size-1.
+    
+    // Function Output:
+    
+    
+    // The function will produce two outputs consisting of the latter two parameters in the Correlate() argument list
+    // plus the Correlate() _Bool return parameter:
+    //    1. spearmanCoefficient (type float) contains the result of the formulation. 
+    //       It is a real number ranging from -1 to +1.  
+    //    2. correlationFlag (type float) which is the flag to indicate whether the arrays are positively correlated (+1),
+    //       negatively correlated (-1), or not related at all (0). Thus it can have any one of the three values:-1,0,+1.
+	//		 The three cases precisely are as follows:
+	//		 Flag will be +1 when the Pearson coefficient is in the range from 0.9 to 1.0
+	//		 Flag will be -1 when the Pearson coefficient is in the range from -0.9 to -1.0
+	//		 Flag will be 0 otherwise.
+	
+    //    3. Correlate()(type _Bool) returns 1 if size > 0 and returns 0 if size <= 0.
+
+
+    //   HINT:  for the Spearman Coefficient use the formula given on Module 15 Slide 28 and also see later slides for how the Spearman coefficient is calculated (you must sort the data and such). Also see the requirements in Appendix A of the SOW
+	
+	float t1;
+	float t2;
+	int i,j;
+	float arr1[size], arr2[size];
+	float currentKeyOne,currentKeyTwo;
+	float avg1, avg2,sum1=0,sum2=0,counter1=0,counter2=0;
+	float rank1[size], rank2[size], finalX[size], finalY[size];
+	float mean_x = 0,mean_y = 0,var_x=0,var_y=0;
+	
+	for (i = 0 (1a); i < size (1b); i++ (1c)) 
+	{
+		
+      arr1[i] = arrayOne[i];										2
+	  arr2[i] = arrayTwo[i];									3
+	  rank1[i] = i+1;										4
+	  rank2[i] = i+1;										5
+   }
+	
+	
+	for(i=0 (6a); i<size (6b); i++ (6c))
+    {
+        
+        for(j=i+1 (7a); j<size (7b); j++ (7c))
+        {
+            
+            if(arr1[i] > arr1[j])									8
+            {
+                t1 = arr1[i];										9
+                arr1[i] = arr1[j];									10
+                arr1[j] = t1;										11
+            }
+			
+			
+			 if(arr2[i] > arr2[j])								12
+            {
+                t2 = arr2[i];										13
+                arr2[i] = arr2[j];									14
+                arr2[j] = t2;										15
+            }
+        }
+    }
+	
+	currentKeyOne = arr1[0];									16
+	currentKeyTwo = arr2[0];									17
+	
+	for(i=1 (18a); i<size (18b); i++ (18c))      // parent for loop
+    	{
+		if(currentKeyOne == arr1[i]) 								19
+		{	
+			counter1++;									20
+			sum1 = sum1 + (i+1);								21
+		} 
+		else 											22
+		{
+			currentKeyOne = arr1[i];							23
+			if(counter1>0)									24
+			{
+				avg1 = sum1/counter1;							25
+				while(counter1>0) 							26
+				{
+					tempVar = i-counter1 +1 ;					27
+					rank1[tempVar] = avg1;						28
+					counter1--;							29
+				}
+				sum1 = 0;								30
+				counter1 = 0;								31
+			}
+		}
+		
+		
+		if(currentKeyTwo == arr2[i]) 								32
+		{	
+			counter2++;									33
+			sum2 = sum2+ (i+1);								34
+		}
+		else 											35
+		{	
+			currentKeyTwo = arr2[i];							36
+			if(counter2>0)									37
+			{
+				avg2 = sum2/counter2;							38
+				while(counter2>0) 							39
+				{
+					tempVar = i-counter2 +1 ;					40
+					rank2[tempVar] = avg2;						41
+					counter2--;							42
+				} sum2 =0; counter2 = 0;						43
+
+			}
+		}
+	}
+		
+	for(i=0 (43a);i<size (43b);i++ (43c)) //second parent for loop
+	{
+		for(j=0 (44a);j<size (44b);j++ (44c)) 
+		{
+			if(arrayOne[i] == arr1[j]) 							45
+			{
+				finalX[i] = rank1[j];							46
+			}
+			if(arrayTwo[i] == arr2[j]) 							47
+			{
+				finalY[i] = rank2[j];							48
+			}	
+		}
+	}
+	
+	for(i =0 (49a);i < size (49b);i++ (49c))    // third parent for loop 
+	{
+     		 mean_x += finalX[i];									50
+     		 mean_y += finalY[i];									51
+  	}
+   	 mean_x /= size;										52
+ 	 mean_y /= size;										53
+    
+    for(i = 0 (54a);i <size (54b);i++ (54c))     // fourth parent for loop 
+	{
+      var_x += (finalX[i] - mean_x)*(finalX[i] - mean_x);						55
+      var_y += (finalY[i] - mean_y)*(finalY[i] - mean_y);						56
+    }   
+    
+	var_x /= size;											57
+    var_y /= size;    
+    float denom = 0;											58
+    denom = sqrt (size*var_x*var_y);									59
+    
+	for (int i = 0 (60a);i<size (60b);i++ (60c))      // fifth parent for loop 
+		spearmanCoefficient += (finalX[i] - mean_x)*(finalY[i] - mean_y);			70
+	
+	spearmanCoefficient /= denom;									80
+	
+    if (spearmanCoefficient >= 0.9  && spearmanCoefficient<=1.0)					81
+      correlationFlag = 1;										82
+    else if (spearmanCoefficient >= -1  && spearmanCoefficient<=-0.9)					83
+      correlationFlag = -1;										84
+    else 												85
+      correlationFlag = 0;										86
+    
+    if (size > 0)											87
+		return 1;										88
+    else 												89
+		return 0;										90
+     
+}

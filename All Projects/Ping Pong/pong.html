@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)http://lambda.uta.edu/cse5335/pong.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>A Pong Game in JavaScript</title>
+
+    <script type="text/javascript" src="./A Pong Game in JavaScript_files/pong.js.download"></script>
+    <script type="text/javascript" src="pong.js"></script>
+  </head>
+  <body onload="initialize();" onmousemove="movePaddle(event);">
+    <h1>Pong Game</h1>
+    <form>
+      <input type="button" value="Start" onclick="startGame();">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="button" value="Reset" onclick="resetGame();"><br><br>
+      <label>Slow<input type="radio" name="speed" value="0" checked="checked" onclick="setSpeed(0);"></label>
+      <label>Medium<input type="radio" name="speed" value="1" onclick="setSpeed(1);"></label>
+      <label>Fast<input type="radio" name="speed" value="2" onclick="setSpeed(2);"></label>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <label>Strikes: <span id="strikes">0</span></label>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <label>Max Score: <span id="score">0</span></label>
+      <br>
+      <br>
+      <div id="court" style="border: solid black; border-right-style: dashed; background-color: azure; cursor: none; width: 800px; height: 500px;" onclick="startGame(event);">
+	<img id="ball" src="ball.gif" height="20px" style="margin: 0; padding: 0px; position: relative;">
+	<img id="paddle" src="./A Pong Game in JavaScript_files/paddle.gif" style="margin: 0; padding: 0; position: relative; left: 750px;">
+      </div>
+    </form>
+    <br>
+    Messages: <span id="messages"></span>
+
+
+</body></html>
