@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingBottom="16dp"
+    android:layout_marginTop="?attr/actionBarSize">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact Us:"
+            android:textColor="@color/maroon"
+            android:textSize="48dp"
+            android:id="@+id/text_contactUs"
+            android:paddingTop="32dp"
+            android:paddingLeft="32dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="32dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="16dp"
+                android:layout_weight="1">
+
+                    <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Address:"
+                    android:textColor="@color/maroon"
+                    android:textSize="44dp"
+                    android:id="@+id/text_address"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="paragraph"
+                    android:id="@+id/paragraph_addr"
+                    android:lineSpacingExtra="1dp"
+                    android:textSize="20dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="16dp"
+                android:layout_weight="1">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Feedback Form:"
+                    android:id="@+id/text_feedbackForm"
+                    android:textSize="44dp"
+                    android:textColor="@color/maroon"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:hint="Name"
+                    android:paddingLeft="8dp"
+                    android:gravity="center_vertical"
+                    android:textSize="15dp"
+                    android:maxLength="50"
+                    android:id="@+id/edit_name"
+                    android:singleLine="true"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/edittext_borders"
+                    />
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:hint="Address"
+                    android:textSize="15dp"
+                    android:maxLength="100"
+                    android:paddingTop="16dp"
+                    android:paddingLeft="8dp"
+                    android:singleLine="false"
+                    android:id="@+id/edit_addr"
+
+                    android:gravity="start"
+                    android:maxLines="3"
+                    android:layout_marginTop="8dp"
+
+                    android:background="@drawable/edittext_borders"
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:hint="Email Id"
+                    android:layout_gravity="center_vertical"
+                    android:textSize="15dp"
+                    android:paddingLeft="8dp"
+                    android:layout_marginTop="8dp"
+                    android:id="@+id/edit_emailId"
+                    android:maxLength="30"
+                    android:singleLine="true"
+                    android:background="@drawable/edittext_borders"
+                    />
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="60dp"
+                    android:text="Send"
+                    android:layout_marginTop="8dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/border"
+                    android:id="@+id/feedback_send_butn"
+                    android:background="@drawable/button_press_state_change"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:id="@+id/map_contactUs"
+            android:scaleType="fitCenter"
+            android:src="@drawable/map_jewellarymehendi"
+            />
+    </LinearLayout>
+</ScrollView>

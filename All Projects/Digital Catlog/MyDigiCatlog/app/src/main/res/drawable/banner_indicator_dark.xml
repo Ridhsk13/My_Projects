@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    &lt;!&ndash;
+        <item
+            android:top="1dp"
+            android:right="1dp"
+            android:bottom="4dp"
+            android:left="4dp">
+            <shape
+                android:shape="oval">
+                <solid android:color="#4d4d4d" />
+            </shape>
+        </item>
+    &ndash;&gt;
+    <item>
+        <shape
+            android:shape="ring"
+            android:innerRadius="0dp"
+            android:thickness="55dp"
+            android:useLevel="false">
+
+            <solid android:color="@color/maroon"></solid>
+        </shape>
+    </item>
+</layer-list>-->
+<!--
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+<item>
+    <shape
+        android:innerRadiusRatio="4"
+        android:shape="ring"
+        android:thicknessRatio="15"
+        android:useLevel="false" >
+        <solid android:color="@color/maroon" />
+        <size
+            android:height="48dip"
+            android:width="48dip" />
+    </shape>
+
+</item>
+<item>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="ring"
+    android:innerRadius="0dp"
+    android:thickness="55dp"
+    android:thicknessRatio="2"
+    android:useLevel="false">
+    <stroke android:color="@color/border"
+        android:width="2dp"></stroke>
+    <solid android:color="@color/maroon"/>
+    <size android:height="200dp"
+        android:width="200dp"/>
+</shape>
+</item>
+
+</layer-list>-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:innerRadius="0dp"
+    android:shape="ring"
+    android:thicknessRatio="4"
+    android:useLevel="false" >
+    <solid android:color="@color/maroon" />
+
+</shape>

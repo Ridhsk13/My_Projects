@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "412523903594",
+    "firebase_url": "https://myblackboard-ac6cc.firebaseio.com",
+    "project_id": "myblackboard-ac6cc",
+    "storage_bucket": "myblackboard-ac6cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:412523903594:android:90b0c2cae7d618d6",
+        "android_client_info": {
+          "package_name": "com.ridhs.myblackboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "412523903594-8fmp9fbplsaqe6a1kr1rhlr5mtt3g0i7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ridhs.myblackboard",
+            "certificate_hash": "2666e8fad9533cafccda0935aa7777ee1ab83f49"
+          }
+        },
+        {
+          "client_id": "412523903594-dd196n4cvc0for1cgrijbqt36bdqo916.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4F_RlOEG8I0eEYstHXaInBzmWn2Cmc30"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "412523903594-dd196n4cvc0for1cgrijbqt36bdqo916.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

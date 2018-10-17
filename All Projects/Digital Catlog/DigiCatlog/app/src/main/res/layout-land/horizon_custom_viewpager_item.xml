@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="240dp"
+    android:layout_gravity="center_horizontal"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:paddingBottom="8dp"
+        android:paddingLeft="6dp"
+        android:paddingRight="4dp"
+        android:paddingTop="4dp">
+
+        <RelativeLayout
+            android:id="@+id/horizontal_layout_img4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/scrollview_border"
+            android:clickable="true"
+            android:gravity="center"
+            android:paddingBottom="8dp"
+
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp">
+
+            <TextView
+                android:id="@+id/horizon_imageView"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:background="@drawable/thumbnail_ring4"
+                android:paddingTop="140dp"
+                android:text="Knuckle Ring"
+                android:textAlignment="center"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/horizon_viewmore_button"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_below="@id/horizon_imageView"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/button_press_state_change"
+                android:text="View More"
+                android:textAllCaps="false"
+                android:textColor="@color/border"
+                android:textSize="16dp" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context="com.ridhs.myparkingbuddy.RegisterActivity">
+
+
+    <TextView
+        android:id="@+id/activity_register_fullnameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:text="Full Name"
+        android:fontFamily="sans-serif"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/activity_register_RegisterBT"
+        android:layout_toStartOf="@+id/activity_register_RegisterBT"
+        android:layout_marginRight="30dp"
+        android:layout_marginEnd="30dp" />
+
+    <TextView
+        android:id="@+id/activity_register_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="e-mail"
+        android:fontFamily="sans-serif"
+        android:layout_alignBaseline="@+id/activity_register_emailET"
+        android:layout_alignBottom="@+id/activity_register_emailET"
+        android:layout_alignLeft="@+id/activity_register_fullnameTV"
+        android:layout_alignStart="@+id/activity_register_fullnameTV" />
+
+    <EditText
+        android:id="@+id/activity_register_fullnameET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="Full Name"
+        android:inputType="textPersonName"
+        android:layout_alignBaseline="@+id/activity_register_fullnameTV"
+        android:layout_alignBottom="@+id/activity_register_fullnameTV"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:id="@+id/activity_register_emailET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="e-mail"
+        android:inputType="textEmailAddress"
+        android:layout_below="@+id/activity_register_fullnameET"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:id="@+id/activity_register_passwordET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/activity_register_confirmpasswordET"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="14dp"
+        android:fontFamily="sans-serif"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/activity_register_confirmpasswordET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/activity_register_schoolTV"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="28dp"
+        android:fontFamily="sans-serif"
+        android:ems="10"
+        android:hint="Re-type Password"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/activity_register_passwordTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/activity_register_passwordET"
+        android:layout_alignLeft="@+id/activity_register_email"
+        android:layout_alignStart="@+id/activity_register_email"
+        android:text="Password"
+        android:fontFamily="sans-serif"/>
+
+    <TextView
+        android:id="@+id/activity_register_confirmpasswordTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm Password"
+        android:fontFamily="sans-serif"
+        android:layout_alignBaseline="@+id/activity_register_confirmpasswordET"
+        android:layout_alignBottom="@+id/activity_register_confirmpasswordET"
+        android:layout_alignLeft="@+id/activity_register_passwordTV"
+        android:layout_alignStart="@+id/activity_register_passwordTV" />
+
+    <TextView
+        android:id="@+id/activity_register_schoolTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="School/Organization"
+        android:fontFamily="sans-serif"
+        android:layout_above="@+id/activity_register_preferredTV"
+        android:layout_marginBottom="39dp"
+        android:layout_alignLeft="@+id/activity_register_confirmpasswordTV"
+        android:layout_alignStart="@+id/activity_register_confirmpasswordTV" />
+
+    <EditText
+        android:id="@+id/activity_register_schoolET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:fontFamily="sans-serif"
+        android:layout_above="@+id/activity_register_preferredTV"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/activity_register_preferredTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Parking Preference"
+        android:layout_alignBottom="@+id/activity_register_preferred2spinner"
+        android:layout_alignLeft="@+id/activity_register_schoolTV"
+        android:layout_alignStart="@+id/activity_register_schoolTV" />
+
+    <Spinner
+        android:id="@+id/activity_register_preferred1spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:fontFamily="sans-serif"
+        android:layout_above="@+id/activity_register_preferred3spinner"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="10dp"
+        android:layout_alignLeft="@+id/activity_register_preferred3spinner"
+        android:layout_alignStart="@+id/activity_register_preferred3spinner" />
+
+    <Spinner
+        android:id="@+id/activity_register_preferred2spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:layout_above="@+id/activity_register_preferred3spinner"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:fontFamily="sans-serif"
+        android:layout_alignLeft="@+id/activity_register_preferred1spinner"
+        android:layout_alignStart="@+id/activity_register_preferred1spinner" />
+
+    <Spinner
+        android:id="@+id/activity_register_preferred3spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/activity_register_RegisterBT"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:fontFamily="sans-serif"
+        android:layout_marginBottom="32dp"
+        android:layout_alignLeft="@+id/activity_register_schoolET"
+        android:layout_alignStart="@+id/activity_register_schoolET" />
+
+    <Button
+        android:id="@+id/activity_register_RegisterBT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimary"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="Register"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textSize="17sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp" />
+
+    <TextView
+        android:id="@+id/activity_register_phoneTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/activity_register_email"
+        android:layout_alignStart="@+id/activity_register_email"
+        android:layout_below="@+id/activity_register_emailET"
+        android:layout_marginTop="17dp"
+        android:text="Phone" />
+
+    <EditText
+        android:id="@+id/activity_register_phoneET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/activity_register_emailET"
+        android:ems="10"
+        android:inputType="phone" />
+
+</RelativeLayout>

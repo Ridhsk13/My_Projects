@@ -1,0 +1,10 @@
+notification bar - #27272F
+background main - #33333F
+Text and icons - #FBFCFC
+card background - #373740
+Green - #1EB980
+Dark Green - #045D56
+Orange - #FF6859
+Yellow - #FFCF44
+Purple - #B15DFF
+Blue - #72DEFF

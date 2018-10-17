@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#fa400101</color>
+    <color name="border">#ffff</color>
+    <color name="toobar_color">#eadfb8</color>
+    <color name="black">#000</color>
+    <color name="maroon">#fa400101</color>
+    <color name="lightmaroon">#c48e5f</color>
+    <color name="grid_image_border">#e6e3e3</color>
+    <color name="banner_indicator">#ceb6a1</color>
+
+</resources>

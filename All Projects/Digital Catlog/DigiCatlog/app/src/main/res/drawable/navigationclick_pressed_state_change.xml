@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"  >
+    <item  android:state_pressed="true" android:drawable="@drawable/light_maroon_color" />
+    <!--<item  android:state_focused="true" android:drawable="@drawable/light_maroon_color" />
+    --><item  android:state_selected="true" android:drawable="@drawable/light_maroon_color" />
+    <item android:drawable="@drawable/light_maroon_color" android:state_activated="true"/>
+    <item android:drawable="@drawable/maroon_color" />
+</selector>
+
+
+
+<!--
+<selector xmlns:android="http://schemas.android.com/apk/res/android" android:exitFadeDuration="@android:integer/config_mediumAnimTime">
+
+<item android:drawable="@android:color/holo_blue_bright" android:state_enabled="true" android:state_pressed="true"/>
+<item android:drawable="@android:color/holo_blue_light" android:state_selected="true"/>
+<item android:drawable="@android:color/holo_blue_dark" android:state_activated="true"/>
+
+</selector>
+-->

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context="com.example.ridhs.bookmyhall.ViewProfile">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name :"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/view_profile_editText_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:hint="Hall Reserver Name" />
+
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Email ID:"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/view_profile_editText_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:hint="Hall Reserver email ID" />-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Contact No."
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/view_profile_editText_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:hint="Hall Reserver Contact no." />
+
+    <Button
+        android:id="@+id/view_profile_button_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Submit" />
+
+    <Button
+        android:id="@+id/view_profile_button_update_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Update Profile" />
+
+    <Button
+        android:id="@+id/view_profile_button_update_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Password" />
+
+    <Button
+        android:id="@+id/view_profile_button_view_cancel_bookings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View / Cancel Bookings" />
+
+</LinearLayout>

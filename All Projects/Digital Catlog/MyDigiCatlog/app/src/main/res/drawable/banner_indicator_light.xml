@@ -1,0 +1,38 @@
+<!--
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape
+            android:innerRadiusRatio="4"
+            android:shape="ring"
+            android:thicknessRatio="15"
+            android:useLevel="false" >
+            <solid android:color="@color/banner_indicator" />
+            <size
+                android:height="48dip"
+                android:width="48dip" />
+        </shape>
+
+    </item>
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="ring"
+            android:innerRadius="0dp"
+            android:thickness="55dp"
+            android:useLevel="false">
+            <stroke android:color="@color/banner_indicator"></stroke>
+
+            <solid android:color="@color/banner_indicator"/>
+            <size android:height="200dp"
+                android:width="200dp"/>
+        </shape>
+    </item>
+
+</layer-list>-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:innerRadius="0dp"
+    android:shape="ring"
+    android:thicknessRatio="3"
+    android:useLevel="false" >
+    <solid android:color="@color/banner_indicator" />
+
+</shape>

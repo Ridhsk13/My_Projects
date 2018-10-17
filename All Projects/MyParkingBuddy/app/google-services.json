@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "122699803756",
+    "firebase_url": "https://myparkingbuddy-8e3b4.firebaseio.com",
+    "project_id": "myparkingbuddy-8e3b4",
+    "storage_bucket": "myparkingbuddy-8e3b4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:122699803756:android:de7ee96393fc0ec3",
+        "android_client_info": {
+          "package_name": "com.ridhs.myparkingbuddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "122699803756-fgri4re8ov00d1r08el0ub82o5gjfku9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ridhs.myparkingbuddy",
+            "certificate_hash": "2666e8fad9533cafccda0935aa7777ee1ab83f49"
+          }
+        },
+        {
+          "client_id": "122699803756-fn9a2sei1br3ltvhi7erqi13n9q5anji.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC143YmYiZH64sVuVD8tTtljcVIhtiOZVA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "122699803756-fn9a2sei1br3ltvhi7erqi13n9q5anji.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

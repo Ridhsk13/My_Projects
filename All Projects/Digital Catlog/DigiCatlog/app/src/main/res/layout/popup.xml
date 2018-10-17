@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="260dp"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    android:background="@color/border">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/lightBox_gallery_leftButton"
+        android:src="@drawable/left_arrow"
+        android:clickable="true"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight= "true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/right_arrow"
+        android:id="@+id/lightBox_gallery_rightButton"
+        android:clickable="true"/>
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="44dp"
+        android:layout_below="@id/previous_btn"
+        android:layout_marginRight="44dp"
+        android:layout_marginTop="16dp"
+        android:id="@+id/lightBox_gallery_viewPager_NEW"
+        ></android.support.v4.view.ViewPager>
+
+</RelativeLayout>

@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:id="@+id/scroll_horizontalView"
+        android:splitMotionEvents="true"
+        android:fillViewport="true"
+        android:measureAllChildren="false"
+        android:scrollbars="none"
+        >
+
+        <LinearLayout
+            android:id="@+id/innerLay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            >
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical" android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="match_parent"
+                android:padding="16dp"
+                >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingBottom="15dp"
+                    android:paddingTop="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:clickable="true"
+                    android:id="@+id/horizontal_layout_img1"
+                    android:background="@drawable/scrollview_border"
+                    >
+                    <TextView
+                        android:layout_width="220dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ring_1"
+                        android:text="Classic Switches"
+                        android:textAlignment="center"
+                        android:paddingTop="220dp"
+                        android:id="@+id/scroll1"
+                        />
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:text="View More"
+                        android:textColor="@color/border"
+                        android:textSize="12dp"
+                        android:textAllCaps="false"
+                        android:layout_centerHorizontal="true"
+                        android:id="@+id/viewmore_button1"
+                        android:background="@drawable/button_press_state_change"
+                        android:layout_below="@id/scroll1"
+                        />
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical" android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="match_parent"
+                android:padding="16dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingBottom="15dp"
+                    android:paddingTop="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+
+                    android:clickable="true"
+                    android:id="@+id/horizontal_layout_img2"
+                    android:background="@drawable/scrollview_border"
+                    >
+                    <TextView
+                        android:layout_width="220dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ring_2"
+                        android:text="Classic Switches"
+                        android:textAlignment="center"
+                        android:paddingTop="220dp"
+                        android:id="@+id/scroll2"
+                        />
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:text="View More"
+                        android:textColor="@color/border"
+                        android:textSize="12dp"
+                        android:textAllCaps="false"
+                        android:layout_centerHorizontal="true"
+                        android:id="@+id/viewmore_button2"
+                        android:background="@drawable/button_press_state_change"
+                        android:layout_below="@id/scroll2"
+                        />
+
+                </RelativeLayout>
+            </RelativeLayout>
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical" android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:padding="16dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingBottom="15dp"
+                    android:paddingTop="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:clickable="true"
+
+                    android:id="@+id/horizontal_layout_img3"
+                    android:background="@drawable/scrollview_border"
+                    >
+                    <TextView
+                        android:layout_width="220dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ring_3"
+                        android:text="Classic Switches"
+                        android:textAlignment="center"
+                        android:paddingTop="220dp"
+                        android:id="@+id/scroll3"
+                        />
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:text="View More"
+                        android:textColor="@color/border"
+                        android:textSize="12dp"
+                        android:textAllCaps="false"
+                        android:layout_centerHorizontal="true"
+                        android:id="@+id/viewmore_button3"
+                        android:background="@drawable/button_press_state_change"
+                        android:layout_below="@id/scroll3"
+                        />
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical" android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:padding="16dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingBottom="15dp"
+                    android:paddingTop="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+
+                    android:clickable="true"
+                    android:id="@+id/horizontal_layout_img4"
+                    android:background="@drawable/scrollview_border"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ring_4"
+                        android:text="Classic Switches"
+                        android:textAlignment="center"
+                        android:paddingTop="220dp"
+                        android:id="@+id/scroll4"
+                        />
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:text="View More"
+                        android:textColor="@color/border"
+                        android:textSize="12dp"
+                        android:textAllCaps="false"
+                        android:layout_centerHorizontal="true"
+                        android:id="@+id/viewmore_button4"
+                        android:background="@drawable/button_press_state_change"
+                        android:layout_below="@id/scroll4"
+                        />
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical" android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:padding="16dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingBottom="15dp"
+                    android:paddingTop="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:clickable="true"
+
+                    android:id="@+id/horizontal_layout_img5"
+                    android:background="@drawable/scrollview_border"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ring_5"
+                        android:text="Classic Switches"
+                        android:textAlignment="center"
+                        android:paddingTop="220dp"
+                        android:id="@+id/scroll5"
+                        />
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:text="View More"
+                        android:textColor="@color/border"
+                        android:textSize="12dp"
+                        android:textAllCaps="false"
+                        android:layout_centerHorizontal="true"
+                        android:id="@+id/viewmore_button5"
+                        android:background="@drawable/button_press_state_change"
+                        android:layout_below="@id/scroll5"
+                        />
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical" android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:padding="16dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingBottom="15dp"
+                    android:paddingTop="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:clickable="true"
+
+                    android:id="@+id/horizontal_layout_img6"
+                    android:background="@drawable/scrollview_border"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ring_6"
+                        android:text="Classic Switches"
+                        android:textAlignment="center"
+                        android:paddingTop="220dp"
+                        android:id="@+id/scroll6"
+                        />
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:text="View More"
+                        android:textColor="@color/border"
+                        android:textSize="12dp"
+                        android:textAllCaps="false"
+                        android:layout_centerHorizontal="true"
+                        android:id="@+id/viewmore_button6"
+                        android:background="@drawable/button_press_state_change"
+                        android:layout_below="@id/scroll6"
+                        />
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+    </HorizontalScrollView>
+-->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ring_1"
+        android:clickable="true"
+        android:id="@+id/lightBox_image_click"/>
+
+</LinearLayout>

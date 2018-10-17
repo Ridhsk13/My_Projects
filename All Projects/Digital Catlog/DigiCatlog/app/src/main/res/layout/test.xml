@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/anim_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="?attr/actionBarSize">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/hahaha_test"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="10dp"
+
+            >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/schedule_viewPager"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"></android.support.v4.view.ViewPager>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="20dp">
+
+                    <ImageView
+                        android:id="@+id/banner_indicator1"
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:src="@drawable/banner_indicator_light" />
+
+                    <ImageView
+                        android:id="@+id/banner_indicator2"
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_toRightOf="@id/banner_indicator1"
+                        android:src="@drawable/banner_indicator_dark" />
+
+                    <ImageView
+                        android:id="@+id/banner_indicator3"
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_toRightOf="@id/banner_indicator2"
+                        android:src="@drawable/banner_indicator_dark" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <!-- <com.ogaclejapan.smarttablayout.SmartTabLayout
+                 android:id="@+id/indicator"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center"
+                 android:layout_marginBottom="15dp"
+                 app:stl_dividerThickness="0dp"
+                 app:stl_indicatorColor="#ffde00"
+                 android:layout_centerHorizontal="true"
+
+                 />-->
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="6dp"
+                android:src="@drawable/line" />
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/rel1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:padding="2dp">
+
+                    <TextView
+                        android:id="@+id/rel1_text"
+                        android:layout_width="120dp"
+                        android:layout_height="175dp"
+                        android:background="@drawable/bangles1"
+                        android:paddingTop="10dp"
+                        android:text="Hellllo"
+                        android:textAlignment="center"
+                        android:textSize="9dp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rel2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/rel1"
+                    android:padding="2dp">
+
+                    <TextView
+                        android:id="@+id/rel2_text"
+                        android:layout_width="264dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/rings2"
+                        android:paddingLeft="120dp"
+                        android:paddingTop="30dp"
+                        android:text="Hiiiii"
+                        android:textSize="9dp"
+
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rel3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/rel2"
+                    android:layout_toRightOf="@id/rel1"
+                    android:padding="2dp">
+
+                    <TextView
+                        android:id="@+id/rel3_text"
+                        android:layout_width="115dp"
+                        android:layout_height="70dp"
+                        android:background="@drawable/diamondearing3"
+                        android:paddingLeft="64dp"
+                        android:paddingTop="10dp"
+                        android:text="asafad"
+                        android:textSize="9dp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/rel2"
+                    android:layout_toRightOf="@id/rel3"
+                    android:padding="2dp">
+
+                    <TextView
+                        android:id="@+id/rel4_text"
+                        android:layout_width="150dp"
+                        android:layout_height="70dp"
+                        android:background="@drawable/image4"
+                        android:paddingLeft="50dp"
+                        android:paddingTop="10dp"
+                        android:text="asafad"
+                        android:textSize="9dp" />
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp">
+
+                <ImageView
+                    android:id="@+id/left_butn_horizontalView"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:clickable="true"
+                    android:src="@drawable/left_arrow" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true">
+
+                    <ImageView
+                        android:id="@+id/test_pattern"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/pattern" />
+
+                    <TextView
+                        android:id="@+id/test_pattern1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:layout_toRightOf="@id/test_pattern"
+                        android:layout_weight="6"
+                        android:text="  New "
+                        android:textColor="@color/maroon"
+                        android:textSize="18dp" />
+
+
+                    <TextView
+                        android:id="@+id/test_pattern2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:layout_toRightOf="@id/test_pattern1"
+                        android:layout_weight="6"
+                        android:text="Products  "
+                        android:textColor="@color/maroon"
+                        android:textSize="18dp" />
+
+
+                    <ImageView
+                        android:id="@+id/test_pattern3"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_toRightOf="@id/test_pattern2"
+                        android:src="@drawable/pattern" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:id="@+id/right_butn_horizontalView"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:clickable="true"
+                    android:src="@drawable/right_arrow" />
+            </RelativeLayout>
+            <!--
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:fillViewport="true"
+                android:id="@+id/scroll_horizontalView"
+                android:splitMotionEvents="true"
+                android:measureAllChildren="false"
+                android:scrollbars="none"
+               >
+
+                <LinearLayout
+                    android:id="@+id/innerLay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                   >
+
+                    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:orientation="vertical" android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"
+                        android:paddingRight="6dp"
+                        android:paddingLeft="6dp"
+                        >
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:paddingBottom="8dp"
+                            android:paddingTop="5dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:clickable="true"
+                            android:id="@+id/horizontal_layout_img1"
+                            android:background="@drawable/scrollview_border"
+                            >
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="110dp"
+                                android:background="@drawable/thumbnail_ring1"
+                                android:text="Metallic Ring"
+                                android:textAlignment="center"
+                                android:paddingTop="90dp"
+                                android:textSize="10dp"
+                                android:id="@+id/scroll1"
+                                />
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="20dp"
+                                android:text="View More"
+                                android:textColor="@color/border"
+                                android:textSize="10dp"
+                                android:textAllCaps="false"
+                                android:layout_centerHorizontal="true"
+                                android:id="@+id/viewmore_button1"
+                                android:background="@drawable/button_press_state_change"
+                                android:layout_below="@id/scroll1"
+                                />
+
+                        </RelativeLayout>
+                    </RelativeLayout>
+
+
+                    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:orientation="vertical" android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"
+                        android:paddingRight="6dp"
+                        android:paddingLeft="6dp">
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:paddingBottom="8dp"
+                            android:paddingTop="5dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+
+                            android:clickable="true"
+                            android:id="@+id/horizontal_layout_img2"
+                            android:background="@drawable/scrollview_border"
+                            >
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="110dp"
+                                android:background="@drawable/thumbnail_ring2"
+                                android:text="Emgagement Ring"
+                                android:textAlignment="center"
+                                android:paddingTop="90dp"
+                                android:textSize="10dp"
+                                android:id="@+id/scroll2"
+                                />
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="20dp"
+                                android:text="View More"
+                                android:textColor="@color/border"
+                                android:textSize="10dp"
+                                android:textAllCaps="false"
+                                android:layout_centerHorizontal="true"
+                                android:id="@+id/viewmore_button2"
+                                android:background="@drawable/button_press_state_change"
+                                android:layout_below="@id/scroll2"
+                                />
+
+                        </RelativeLayout>
+                    </RelativeLayout>
+                    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:orientation="vertical" android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"
+                        android:paddingRight="6dp"
+                        android:paddingLeft="6dp">
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:paddingBottom="8dp"
+                            android:paddingTop="5dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:clickable="true"
+
+                            android:id="@+id/horizontal_layout_img3"
+                            android:background="@drawable/scrollview_border"
+                            >
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="110dp"
+                                android:background="@drawable/thumbnail_ring3"
+                                android:text="Wedding Ring"
+                                android:textAlignment="center"
+                                android:paddingTop="90dp"
+                                android:textSize="10dp"
+                                android:id="@+id/scroll3"
+                                />
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="20dp"
+                                android:text="View More"
+                                android:textColor="@color/border"
+                                android:textSize="10dp"
+                                android:textAllCaps="false"
+                                android:layout_centerHorizontal="true"
+                                android:id="@+id/viewmore_button3"
+                                android:background="@drawable/button_press_state_change"
+                                android:layout_below="@id/scroll3"
+                                />
+
+                        </RelativeLayout>
+                    </RelativeLayout>
+
+
+                    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:orientation="vertical" android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"
+                        android:paddingRight="6dp"
+                        android:paddingLeft="6dp">
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:paddingBottom="8dp"
+                            android:paddingTop="5dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+
+                            android:clickable="true"
+                            android:id="@+id/horizontal_layout_img4"
+                            android:background="@drawable/scrollview_border"
+                            >
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="110dp"
+                                android:background="@drawable/thumbnail_ring4"
+                                android:text="Knuckle Ring"
+                                android:textAlignment="center"
+                                android:paddingTop="90dp"
+                                android:id="@+id/scroll4"
+                                android:textSize="10dp"
+                                />
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="20dp"
+                                android:text="View More"
+                                android:textColor="@color/border"
+                                android:textSize="10dp"
+                                android:textAllCaps="false"
+                                android:layout_centerHorizontal="true"
+                                android:id="@+id/viewmore_button4"
+                                android:background="@drawable/button_press_state_change"
+                                android:layout_below="@id/scroll4"
+                                />
+
+                        </RelativeLayout>
+                    </RelativeLayout>
+
+                    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:orientation="vertical" android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"
+                        android:paddingRight="6dp"
+                        android:paddingLeft="6dp">
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:paddingBottom="8dp"
+                            android:paddingTop="5dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:clickable="true"
+
+                            android:id="@+id/horizontal_layout_img5"
+                            android:background="@drawable/scrollview_border"
+                            >
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="110dp"
+                                android:background="@drawable/thumbnail_ring5"
+                                android:text="Mourning Ring"
+                                android:textAlignment="center"
+                                android:paddingTop="90dp"
+                                android:id="@+id/scroll5"
+                                android:textSize="10dp"
+                                />
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="20dp"
+                                android:text="View More"
+                                android:textColor="@color/border"
+                                android:textSize="10dp"
+                                android:textAllCaps="false"
+                                android:layout_centerHorizontal="true"
+                                android:id="@+id/viewmore_button5"
+                                android:background="@drawable/button_press_state_change"
+                                android:layout_below="@id/scroll5"
+                                />
+
+                        </RelativeLayout>
+                    </RelativeLayout>
+
+                    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:orientation="vertical" android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"
+                        android:paddingRight="6dp"
+                        android:paddingLeft="6dp">
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:paddingBottom="8dp"
+                            android:paddingTop="5dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:clickable="true"
+
+                            android:id="@+id/horizontal_layout_img6"
+                            android:background="@drawable/scrollview_border"
+                            >
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="110dp"
+                                android:background="@drawable/thumbnail_ring6"
+                                android:text="Birthstone Ring"
+                                android:textAlignment="center"
+                                android:paddingTop="90dp"
+                                android:textSize="10dp"
+                                android:id="@+id/scroll6"
+                                />
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="20dp"
+                                android:text="View More"
+                                android:textColor="@color/border"
+                                android:textSize="10dp"
+                                android:textAllCaps="false"
+                                android:layout_centerHorizontal="true"
+                                android:id="@+id/viewmore_button6"
+                                android:background="@drawable/button_press_state_change"
+                                android:layout_below="@id/scroll6"
+                                />
+
+                        </RelativeLayout>
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+
+            </HorizontalScrollView>
+            -->
+            <include
+                layout="@layout/horizontalscrollview_layout"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"></include>
+
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:adjustViewBounds="true"
+            android:layout_below="@id/hahaha_test"
+            android:src="@drawable/bottom_banner" />
+    </RelativeLayout>
+
+</ScrollView>

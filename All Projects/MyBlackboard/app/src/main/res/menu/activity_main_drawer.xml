@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_sub1"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Subject 1" />
+        <item
+            android:id="@+id/nav_sub2"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Subject 2" />
+        <item
+            android:id="@+id/nav_sub3"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Subject 3" />
+        <item
+            android:id="@+id/nav_sub4"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Subject 4" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Settings" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/grp1">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home" />
+        </group>
+    <group android:checkableBehavior="single" android:id="@+id/grp2">
+        <item
+            android:id="@+id/nav_abtus"
+            android:title="About Us" />
+        </group>
+        <group android:checkableBehavior="all" android:id="@+id/grp3">
+        <item
+            android:id="@+id/nav_ourProduct"
+            android:title="Our Products" >
+
+
+            <menu>
+                <item
+                    android:id="@+id/menu_rings"
+                    android:title="Rings" />
+                <item
+                    android:id="@+id/menu_necklaces"
+                    android:title="Necklaces" />
+                <item
+                    android:id="@+id/menu_earrings"
+                    android:title="Earrings" />
+                <item
+                    android:id="@+id/menu_bangles"
+                    android:title="Bangles" />
+
+
+            </menu>
+        </item>
+            </group>
+    <group android:checkableBehavior="single" android:id="@+id/grp4">
+        <item
+            android:id="@+id/nav_contact"
+            android:title="Contact Us" />
+    </group>
+
+
+</menu>

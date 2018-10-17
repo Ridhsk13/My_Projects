@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <!--<RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:id="@+id/rel1"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:background="@drawable/bangles1"
+            android:text="Hellllo"
+            android:textAlignment="center"
+            android:paddingTop="30dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rel2"
+        android:layout_toRightOf="@id/rel1"
+        android:padding="5dp"
+        >
+    <TextView
+        android:layout_width="500dp"
+        android:layout_height="125dp"
+        android:background="@drawable/rings2"
+        android:text="Hiiiii"
+        android:textAlignment="center"
+        android:paddingTop="50dp"
+
+        />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/rel1"
+        android:layout_below="@id/rel2"
+        android:id="@+id/rel3"
+        android:padding="5dp"
+        >
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:background="@drawable/diamondearing3"
+        android:text="asafad"
+        android:textAlignment="textEnd"
+        android:paddingTop="40dp"
+        android:gravity="end"
+               />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/rel3"
+        android:layout_below="@id/rel2"
+        android:padding="5dp"
+        >
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="100dp"
+        android:background="@drawable/image4"
+        android:text="asafad"
+        android:gravity="end"
+        android:textAlignment="textEnd"
+        android:paddingTop="40dp"
+               />
+    </RelativeLayout>-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:background="@drawable/scrollview_border"
+        >
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Classic Switches"
+            android:textAlignment="gravity"
+            android:gravity="bottom|center"
+            android:background="@drawable/thumbnail_ring1"
+            android:textSize="12dp"
+            android:id="@+id/TEST"
+            />
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="16dp"
+        android:background="@drawable/scrollview_border"
+        >
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="250dp"
+            android:text="Classic Switches"
+            android:textAlignment="center"
+            android:paddingTop="210dp"
+            android:textSize="24dp"
+            android:background="@drawable/ring_1"
+            android:id="@+id/frag_grid_text"
+            android:textStyle="bold"
+
+            />
+        <Button
+            android:layout_width="190dp"
+            android:layout_height="40dp"
+            android:text="View More"
+            android:textColor="@color/border"
+            android:textSize="24dp"
+            android:textAllCaps="false"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/frag_grid_button"
+            android:background="@drawable/button_press_state_change"
+            android:layout_below="@id/frag_grid_text"
+            />
+
+    </RelativeLayout>
+</RelativeLayout>
